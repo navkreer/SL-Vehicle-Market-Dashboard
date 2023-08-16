@@ -1,0 +1,26 @@
+Cleaning Data
+- Format, AutoFit Row Height & AutoFit Column Width
+- Add new column A, =SEQUENCE(123971)
+- Data -> Remove Duplicates
+
+Filling blank cells with "NA"
+- Find and select, special, blanks, enter NA (ctrl + enter)
+B Column, Find and replace, find what: "for sale", replace with:
+F/G Column, =TRIM()
+
+Edition/Model/Year/publish date column, new columns made with =TRIM()
+Paste as values in new column
+
+Text to columns to split published_date by day and time
+
+Dealing with confidential information being published online and not needed for Power BI visualization, we will delete seller names
+
+Location column, text to columns to split region and city
+
+Convert Currency from SLR to CAD
+Using =E2*$Y$2, find and replace: Rs with:
+Paste as values
+find and replace: #VALUE!, with: Negotiable
+Paste as values
+
+Add filter menu
